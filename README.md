@@ -2,7 +2,7 @@
 Um novo site, com mais tags html e estilização.
 
 ## Tema
-Grandes Nomes, franquias e empresas por trás dos jogos.
+Arte das paisagem
 
 ## Autor
 - Luigi Aranha de Andrade
