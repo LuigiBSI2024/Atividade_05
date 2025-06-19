@@ -12,15 +12,16 @@ body {
 }
 
 .layout footer{
-    background-color: blue;
+    background-color: transparent;
     align-self: end;
     border-radius: 100px;
     width: 27%;
     text-align: center;
+    color: pink;
 }
 
 header, ul{
-    background-color: green;
+    background-color: transparent;
     border-radius: 100px;
     display: flex;
     flex-direction: row;
@@ -33,6 +34,7 @@ header ul a{
     white-space: nowrap;
     color: pink;
     align-self: end;
+    text-align: center;
 }
 
 header ul{
@@ -42,19 +44,58 @@ header ul{
 }
 
 header > h1{
-    color: white;
+    display: flex;
+    color: pink;
     margin-left: 4%; 
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header figure img{
+    width: 60%;
+    height: 100px;
+    border-radius: 20px;
+    padding-left: 130%;
+    margin-left: 80px;
+}
+
+header li{
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: 34vh;
+
 }
 
 .introducao {
-    background-color: yellow;
-    color: red;
+    display: flex;
+    background-color: white;
+    color: pink;
     display: flex;
     border-radius: 100px;
     justify-content: center;
-    width: 50%;
-    height: 140px;
-    margin: 0 auto;
     align-items: center;
+    font-weight: bold;
+    width: 100vh;
+    margin: 0 auto;
+    border: 1px solid black;
 }
+
+footer{
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+footer a img{
+    padding: 0px 40px 0px 1px;
+    align-self: center;
+}
+
+
 
