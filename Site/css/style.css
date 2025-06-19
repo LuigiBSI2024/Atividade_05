@@ -1,5 +1,60 @@
+body {
+  background-image: url('Papel-de-parede.svg');
+  background-repeat: no-repeat;      /* evita repetição da imagem */
+  background-size: cover;            /* cobre toda a área disponível */
+  background-position: center center; /* centraliza a imagem */
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+
+.layout footer{
+    background-color: blue;
+    align-self: end;
+    border-radius: 100px;
+    width: 27%;
+    text-align: center;
+}
+
+header, ul{
+    background-color: green;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+header ul a{
+    margin-left: 4%; 
+    text-decoration: none;
+    white-space: nowrap;
+    color: pink;
+    align-self: end;
+}
+
+header ul{
+    padding-top: 15px;
+    padding-bottom: 0px;
+    list-style: none;
+}
+
+header > h1{
+    color: white;
+    margin-left: 4%; 
+}
+
 .introducao {
     background-color: yellow;
     color: red;
     display: flex;
+    border-radius: 100px;
+    justify-content: center;
+    width: 50%;
+    height: 140px;
+    margin: 0 auto;
+    align-items: center;
 }
+
