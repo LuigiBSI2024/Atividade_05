@@ -1,5 +1,5 @@
 body {
-  background-image: url('Papel-de-parede.svg');
+  background-image: url('../images/Papel-de-parede.svg');
   background-repeat: no-repeat;      /* evita repetição da imagem */
   background-size: cover;            /* cobre toda a área disponível */
   background-position: center center; /* centraliza a imagem */
