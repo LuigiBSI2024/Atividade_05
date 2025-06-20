@@ -97,5 +97,8 @@ footer p{
     margin-left: -80%;
 }
 
+/*Aviso: a partir desta linha acima, o arquivo .css pertence ao index.html, como todas as páginas seguintes são sobreescritas
+a partir dele é recomendado atribuir uma nova classe à tag ou evitar modificações nas linhas acima dos comentários para evitar que as
+alterações afetem todos os arquivos, tente criar outras div ou usar outros meios de atribuição.*/
 
 

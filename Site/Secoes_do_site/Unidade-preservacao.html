@@ -4,48 +4,77 @@
 <head>
 
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet"/>
-    <link href = "css/style.css" rel = "stylesheet"/>
-    <link rel="icon" href="imagens/icone-site.png" type="image/png">
+    <link href = "../css/style.css" rel = "stylesheet"/>
+    <link rel="icon" href="../images/logo-Paisagem.png" type="image/png">
 
     <meta charset = "utf-8"/>
-    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Paisagem</title>
     
 </head>
 
 <body>
-    <header>
-        <h1>Paisagem</h1>
-        <nav>
-            <ul>
-                <li><a href="Secoes_do_site/Natureza.html">Natureza</a> </li>
-                <li><a href="Secoes_do_site/Unidades-preservacao.html">Unidades de Preservação</a> </li>
-                <li><a href="Secoes_do_site/Camping.html">Camping</a> </li>
-                <li><a href="Secoes_do_site/Seguranca.html">Segurança</a> </li>
-            </ul>
-        </nav>
-    </header>
+    
+    <div class="layout">
+        <header>
+            <h1>Paisagem</h1>
+            <nav>
+                <ul>
+                    <li><a href="Secoes_do_site/Natureza.html">Natureza</a> </li>
+                    <li><a href="../index.html">Paisagens</a> </li>
+                    <li><a href="Secoes_do_site/Camping.html">Camping</a> </li>
+                    <li><a href="Secoes_do_site/Seguranca.html">Segurança</a> </li>
+                </ul>
+            </nav>
+            <figure>
+                <img src="../images/logo-Paisagem.png" alt="Logo do site." />
+            </figure>
+        </header>
 
-    <div class="introducao">
-        <main>
+        <div class="introducao">
+            <main>
+                <h1>
+                    As UPs (Unidades de Preservação) solicitam sua ajuda
+                </h1>
+                <p>
+                    Caro leitor, solicitamos sua ajuda. Muitas destas paisagens descritas no site estão sofrendo pela presença do homem, <br>
+                    necessitamos de ajuda em dinheiro para alcançar a meta de 2 milhões necessários para semear e reconstroir a flora local para que muitos dos animais <br>
+                    locais saiam do cativeiro e se possível sua divulgação. O valor mínimo é a partir de 5 reais, de acordo com a nossa previsão se o ritmo do dano continuar a progredir: <br>
+                    "teremos apenas 6 meses para conter as chamas e restaurar o local antes que o efeito seja permanente" (segundo Getúlio de Lima, Cientista Ambiental), infelizmente o <br>
+                    Governo não tem cooperado com o combate, mas se nada for efeito imediamente nesse prazo previsto, pode e irá afetar o índice de chuvas e alterar o clima do país e <br>
+                    porção deste continente como um todo.
+                </p>
 
-            <div class="primeiro-titulo">
-                <h1>Paisagens e arte</h1>
-            </div>
+            </main>
 
-            <p>
-                A natureza conta com seus ecantos e cativa os olhares de seus visitantes. <br>
-                Aprecie os quadros produzidos por ela na seção "Natureza", presente no cabeçalho.
+        </div>
+
+        <section class="newsletter">
+            <h2>Receba atualizações sobre as UPs</h2>
+            <p>Insira seu e-mail para receber notícias, alertas e formas de ajudar na preservação ambiental.</p>
+
+            <form action="#" method="post">
+                <input type="email" name="email" placeholder="Digite seu e-mail" required>
+                <button type="submit">Inscrever</button>
+            </form>
+            
+        </section>
+
+        <footer>
+            <p>Autor: Luigi Aranha de Andrade - Aluno: BSI 2024 - Email de Contato: turbotastico@hotmail.com 
             </p>
-        </main>
+
+            <a href="https://www.instagram.com/Inexistente" target="_blank">
+                <img src="../images/250px-Instagram_logo_2022.svg.webp" alt="Instagram" style="width: 40px; height: 40px;">
+            </a>
+            <a href="https://www.facebook.com/Inexistente" target="_blank">
+                <img src="../images/250px-2023_Facebook_icon.svg.webp" alt="Facebook" style="width: 40px; height: 40px;">
+            </a>
+                <!-- Os links do Facebook e Instagram acima são fictícios e se existem é uma coincidência.-->
+        </footer>
 
     </div>
-
-    <footer class="rodape">
-        <p>Autor: Luigi Aranha de Andrade - Aluno: BSI 2024 </p>
-    </footer>
-
     <!--A tag div aninha o seu conteúdo interno de acordo com as regras impostas
     pelo seletor .css, observe as tags de início e fim da div. -->
 </body>

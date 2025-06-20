@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet"/>
+    <link href = "css/style.css" rel = "stylesheet"/>
+    <link rel="icon" href="images/logo-Paisagem.png" type="image/png">
+
+    <meta charset = "utf-8"/>
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    
+    <title>Paisagem</title>
+    
+</head>
+
+<body>
+    
+    <div class="layout">
+        <header>
+            <h1>Paisagem</h1>
+            <nav>
+                <ul>
+                    <li><a href="Secoes_do_site/Natureza.html">Natureza</a> </li>
+                    <li><a href="Secoes_do_site/Unidade-preservacao.html">Unidades de Preservação</a> </li>
+                    <li><a href="Secoes_do_site/Camping.html">Camping</a> </li>
+                    <li><a href="Secoes_do_site/Seguranca.html">Segurança</a> </li>
+                </ul>
+            </nav>
+            <figure>
+                <img src="images/logo-Paisagem.png" alt="Logo do site." />
+            </figure>
+        </header>
+
+        <div class="introducao">
+            <main>
+            
+                <p>
+                    A natureza conta com seus ecantos e cativa os olhares de seus visitantes. <br>
+                    Aprecie os quadros produzidos por ela na seção "Natureza", presente no cabeçalho.
+                </p>
+
+            </main>
+
+        </div>
+
+    <!--Luigi Aranha, coloque aqui nesta página vídeos relacionados a camping e um formulário que tentará assumir a forma
+    de verificador de satisfação do cliente, com artigos de acampamentos. Os 5 itens a serem inseridos no formulário: 1. Avali
+    ação no formato de 5 estrelas sobre o produto comprado; 2. Avaliação do local; 3. Denúncia de má conduta dos 
+    visitantes; 4. Hospedagem, guia e experiência; 5. Você recomendaria essa experiência a terceiros? (relate aqui)" ?
+    -->
+
+    <section class="verificacao-satisfacao">
+        <h2>Verificação de Satisfação do Cliente</h2>
+        <form action="#" method="post">
+
+            <!-- 1. Avaliação do produto -->
+            <label for="avaliacao-produto">1. Avaliação geral do(s) produto(s) ou serviço(s)adquirido/prestado(s):</label>
+            <select id="avaliacao-produto" name="avaliacao-produto" required>
+            <option value="">Escolha</option>
+            <option value="5">★★★★★ - Excelente</option>
+            <option value="4">★★★★☆ - Muito bom</option>
+            <option value="3">★★★☆☆ - Regular</option>
+            <option value="2">★★☆☆☆ - Ruim</option>
+            <option value="1">★☆☆☆☆ - Péssimo</option>
+            </select>
+
+            <!-- 2. Avaliação do local -->
+            <label for="avaliacao-local">2. Avaliação do local de camping:</label>
+            <textarea id="avaliacao-local" name="avaliacao-local" rows="3" placeholder="Conte como foi a estrutura, segurança e ambiente..." required></textarea>
+
+            <!-- 3. Denúncia de má conduta -->
+            <label for="denuncia">3. Houve má conduta de visitantes? (Descreva):</label>
+            <textarea id="denuncia" name="denuncia" rows="2" placeholder="Relate casos de vandalismo, barulho excessivo, lixo, etc. (opcional)"></textarea>
+
+            <!-- 4. Hospedagem, guia e experiência -->
+            <label for="experiencia">4. Hospedagem, guia e experiência:</label>
+            <textarea id="experiencia" name="experiencia" rows="3" placeholder="Descreva como foi a recepção, atendimento e os passeios..." required></textarea>
+
+            <!-- 5. Recomendaria a experiência? -->
+            <label for="recomendacao">5. Você recomendaria essa experiência a terceiros?</label>
+            <textarea id="recomendacao" name="recomendacao" rows="2" placeholder="Sim ou não? Justifique sua resposta." required></textarea>
+
+            <button type="submit">Enviar Avaliação</button>
+        </form>
+    </section>
+
+
+        <footer>
+            <p>Autor: Luigi Aranha de Andrade - Aluno: BSI 2024 - Email de Contato: turbotastico@hotmail.com 
+            </p>
+
+            <a href="https://www.instagram.com/Inexistente" target="_blank">
+                <img src="images/250px-Instagram_logo_2022.svg.webp" alt="Instagram" style="width: 40px; height: 40px;">
+            </a>
+            <a href="https://www.facebook.com/Inexistente" target="_blank">
+                <img src="images/250px-2023_Facebook_icon.svg.webp" alt="Facebook" style="width: 40px; height: 40px;">
+            </a>
+                <!-- Os links do Facebook e Instagram acima são fictícios e se existem é uma coincidência.-->
+        </footer>
+
+    </div>
+
+    <!--A tag div aninha o seu conteúdo interno de acordo com as regras impostas
+    pelo seletor .css, observe as tags de início e fim da div. -->
+
+</body>
+
+</html>
