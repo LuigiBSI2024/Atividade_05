@@ -11,21 +11,12 @@ body {
     gap: 200px;
 }
 
-.layout footer{
-    background-color: transparent;
-    align-self: end;
-    border-radius: 100px;
-    width: 27%;
-    text-align: center;
-    color: pink;
-}
-
 header, ul{
     background-color: transparent;
     border-radius: 100px;
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 20px;
 }
 
 header ul a{
@@ -56,11 +47,10 @@ header > h1{
 }
 
 header figure img{
-    width: 60%;
-    height: 100px;
+    width: 95%;
+    height: 85%;
     border-radius: 20px;
-    padding-left: 130%;
-    margin-left: 80px;
+    margin-left: -5%;
 }
 
 header li{
@@ -89,12 +79,22 @@ header li{
 footer{
     display: flex;
     flex-wrap: nowrap;
-
+    background-color: transparent;
+    align-self: end;
+    border-radius: 100px;
+    text-align: center;
+    color: pink;
 }
 
 footer a img{
-    padding: 0px 40px 0px 1px;
+    padding: 0px 10px 0px 1px;
     align-self: center;
+    margin-left: 1140%;
+    
+}
+
+footer p{
+    margin-left: -80%;
 }
 
 
