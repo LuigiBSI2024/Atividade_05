@@ -2,7 +2,8 @@
 Um novo site, com mais tags html e estilização.
 
 ## Tema
-Arte das paisagem
+Artes das paisagens, mostrar os locais considerados interessantes e bonitos no mundo. E, fora disso apresentar
+locais que necessitam de socorro para que possam ser preservados.
 
 ## Autor
 - Luigi Aranha de Andrade

@@ -23,7 +23,7 @@ header ul a{
     margin-left: 4%; 
     text-decoration: none;
     white-space: nowrap;
-    color: pink;
+    color: black;
     align-self: end;
     text-align: center;
 }
@@ -36,7 +36,7 @@ header ul{
 
 header > h1{
     display: flex;
-    color: pink;
+    color: black;
     margin-left: 4%; 
     border: 1px solid black;
     border-radius: 10px;
@@ -65,7 +65,7 @@ header li{
 .introducao {
     display: flex;
     background-color: white;
-    color: pink;
+    color: black;
     display: flex;
     border-radius: 100px;
     justify-content: center;
@@ -83,7 +83,7 @@ footer{
     align-self: end;
     border-radius: 100px;
     text-align: center;
-    color: pink;
+    color: black;
 }
 
 footer a img{
@@ -101,4 +101,19 @@ footer p{
 a partir dele é recomendado atribuir uma nova classe à tag ou evitar modificações nas linhas acima dos comentários para evitar que as
 alterações afetem todos os arquivos, tente criar outras div ou usar outros meios de atribuição.*/
 
+.Turismo{
+    background-color: white;
+    width: 60%;
+    border-radius: 10px;
+    height: 120vh;
+    align-self: center;
+    padding-top: 30px;
+}
 
+.Turismo > ol > li{
+    list-style: none;
+}
+
+.Turismo h2{
+    font-size: 35px;
+}
