@@ -181,8 +181,21 @@ do "Unidade-preservacao.html". */
     padding: 0.1% 4%;
 }
 
-.unidade-preservacao video{
-    
+.unidade-preservacao h2{
+    padding: 0.1% 4%;
+}
+
+.video-explicativo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.video-explicativo iframe{
+    width: 85%;
+    height: 400px;
+    padding-bottom: 50px;
 }
 
 .Noticias{
@@ -193,6 +206,7 @@ do "Unidade-preservacao.html". */
     align-self: flex-end;
     height: 24vh;
     margin-right: 3%;
+    margin-top: -10%;
 }
 
 .Noticias p{
