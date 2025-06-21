@@ -1,11 +1,11 @@
-body {
+body{
   background-image: url('../images/Papel-de-parede.svg');
   background-repeat: no-repeat;      /* evita repetição da imagem */
   background-size: cover;            /* cobre toda a área disponível */
   background-position: center center; /* centraliza a imagem */
 }
 
-.layout {
+.layout{
     display: flex;
     flex-direction: column;
     gap: 200px;
@@ -20,7 +20,7 @@ header {
     border-radius: 100px;
 }
 
-header h1 {
+header h1{
     margin: 0;
     padding: 10px 20px;
     border: 1px solid black;
@@ -29,7 +29,7 @@ header h1 {
     font-size: 2rem;
 }
 
-header ul {
+header ul{
     display: flex;
     gap: 20px;
     list-style: none;
@@ -37,7 +37,7 @@ header ul {
     padding: 0;
 }
 
-header ul a {
+header ul a{
     text-decoration: none;
     color: black;
     white-space: nowrap;
@@ -47,15 +47,15 @@ header ul a {
     background-color: white;
 }
 
-header ul a:hover {
+header ul a:hover{
     background-color: rgba(243, 0, 0, 0.664); 
 }
 
-header figure {
+header figure{
     margin: 0;
 }
 
-header figure img {
+header figure img{
     max-height: 70px; 
     height: auto;
     width: auto;
@@ -63,7 +63,7 @@ header figure img {
 }
 
 
-.introducao {
+.introducao{
     display: flex;
     background-color: white;
     color: black;
@@ -162,5 +162,65 @@ alterações afetem todos os arquivos, tente criar outras div ou usar outros mei
 }
 
 /*Aviso acima deste comentário está as configurações para "Natureza.html", e, abaixo dele começa as configurações
-do "Seguranca.html". */
+do "Unidade-preservacao.html". */
 
+.unidade-preservacao{
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 50%;
+    align-self: center;
+}
+
+.unidade-preservacao p{
+    text-align: justify;
+    padding: 1px 6%;
+}
+
+.unidade-preservacao h1{
+    padding: 0.1% 4%;
+}
+
+.unidade-preservacao video{
+    
+}
+
+.Noticias{
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 50%;
+    align-self: flex-end;
+    height: 24vh;
+    margin-right: 3%;
+}
+
+.Noticias p{
+    text-align: justify;
+    padding: 1px 6%;
+}
+
+.Noticias h2{
+    padding: 0.1% 4%;
+}
+
+.Noticias form{
+    padding: 1px 6%;
+    display: flex;
+    gap: 20px;
+}
+
+.Noticias form > input{
+    border-color:aqua;
+    border-radius: 10px;
+    height: auto;
+    width: 30%;
+    padding-left: 12px;
+}
+
+.Noticias form > button{
+    border-radius: 10px;
+    height: auto;
+    width: 15%;
+    border-color:aqua;
+}
