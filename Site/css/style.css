@@ -11,56 +11,57 @@ body {
     gap: 200px;
 }
 
-header, ul{
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0.5% 40px; 
     background-color: transparent;
     border-radius: 100px;
+}
+
+header h1 {
+    margin: 0;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+    font-size: 2rem;
+}
+
+header ul {
     display: flex;
-    flex-direction: row;
     gap: 20px;
-}
-
-header ul a{
-    margin-left: 4%; 
-    text-decoration: none;
-    white-space: nowrap;
-    color: black;
-    align-self: end;
-    text-align: center;
-}
-
-header ul{
-    padding-top: 15px;
-    padding-bottom: 0px;
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-header > h1{
-    display: flex;
+header ul a {
+    text-decoration: none;
     color: black;
-    margin-left: 4%; 
-    border: 1px solid black;
+    white-space: nowrap;
+    padding: 8px 16px;
     border-radius: 10px;
-    height: 50px;
-    align-items: center;
-    justify-content: center;
-
+    transition: background-color 0.3s;
+    background-color: white;
 }
 
-header figure img{
-    width: 95%;
-    height: 85%;
-    border-radius: 20px;
-    margin-left: -5%;
+header ul a:hover {
+    background-color: rgba(243, 0, 0, 0.664); 
 }
 
-header li{
-    border: 1px solid black;
+header figure {
+    margin: 0;
+}
+
+header figure img {
+    max-height: 70px; 
+    height: auto;
+    width: auto;
     border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    width: 34vh;
-
 }
+
 
 .introducao {
     display: flex;
@@ -161,4 +162,5 @@ alterações afetem todos os arquivos, tente criar outras div ou usar outros mei
 }
 
 /*Aviso acima deste comentário está as configurações para "Natureza.html", e, abaixo dele começa as configurações
-do "Camping.html". */
+do "Seguranca.html". */
+
