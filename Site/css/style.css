@@ -66,7 +66,6 @@ header li{
     display: flex;
     background-color: white;
     color: black;
-    display: flex;
     border-radius: 100px;
     justify-content: center;
     align-items: center;
@@ -105,15 +104,61 @@ alterações afetem todos os arquivos, tente criar outras div ou usar outros mei
     background-color: white;
     width: 60%;
     border-radius: 10px;
-    height: 120vh;
+    height: auto;
     align-self: center;
-    padding-top: 30px;
+    padding-top: 3px;
 }
 
-.Turismo > ol > li{
+.organizacao-natureza > ol > li{
     list-style: none;
 }
 
 .Turismo h2{
     font-size: 35px;
 }
+
+.imagens-exemplos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagens-exemplos img{
+    margin-left: -40px;
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.organizacao-natureza{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.organizacao-natureza p{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 26px;
+    padding-bottom: 1px;
+    text-align: center;
+}
+
+.organizacao-natureza hr{
+    width: 100%;
+    border: none;
+    height: 3px;
+    background-color: black;
+    margin: 20px 0px;  
+}
+
+.organizacao-natureza > ol{
+    padding-left: 0;
+}
+
+.organizacao-natureza h2, h3, img{
+    padding-left: 40px;
+}
+
+/*Aviso acima deste comentário está as configurações para "Natureza.html", e, abaixo dele começa as configurações
+do "Camping.html". */
