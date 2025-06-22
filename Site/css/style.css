@@ -307,7 +307,6 @@ do "Unidade-preservacao.html". */
     align-self: center;
     border-radius: 10px;
     margin-top: -7%;
-    display: flex;
     flex-wrap: wrap;
 }
 
@@ -324,9 +323,15 @@ do "Unidade-preservacao.html". */
     margin: 10px;
 }
 
-#avaliacao-local, #denuncia, #experiencia, #recomendacao{
+.imagens-decorativas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.imagens-decorativas > #avaliacao-local, #denuncia, #experiencia, #recomendacao{
     margin: -5px 0px;
-    background-color: white;
+    background-color: green;
 }
 
 .produtos .formulario button{
@@ -335,3 +340,7 @@ do "Unidade-preservacao.html". */
     color: blue;
 }
 
+.produtos .formulario .imagens-decorativas img{
+    width: auto;
+    height: 120px;
+}
