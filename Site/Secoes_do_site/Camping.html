@@ -16,9 +16,11 @@
 
 <body>
     
-    <div class="layout">
-        <header>
+    <div class="layout-Camping">
+        <header class="cabecalho">
+
             <h1>Paisagem</h1>
+
             <nav>
                 <ul>
                     <li><a href="Natureza.html">Natureza e Turismo</a> </li>
@@ -26,18 +28,64 @@
                     <li><a href="../index.html">Paisagem</a> </li>
                 </ul>
             </nav>
+
             <figure>
                 <img src="images/logo-Paisagem.png" alt="Logo do site." />
             </figure>
+
         </header>
 
-        <div class="introducao">
+        <div class="produtos">
             <main>
-            
-                <p>
-                    A natureza conta com seus ecantos e cativa os olhares de seus visitantes. <br>
-                    Aprecie os quadros produzidos por ela na seção "Natureza", presente no cabeçalho.
-                </p>
+
+                <h1>Verificação de Satisfação do Cliente</h1>
+
+                <form action="#" method="post">
+
+                    <!-- 1. Avaliação do produto -->
+                    <div class="formulario">
+                        <label for="avaliacao-produto">1. Avaliação geral do(s) produto(s) ou serviço(s)adquirido/prestado(s):</label>
+                        <select id="avaliacao-produto" name="avaliacao-produto" required>
+                        <option value="">Escolha</option>
+                        <option value="5">★★★★★ - Excelente</option>
+                        <option value="4">★★★★☆ - Muito bom</option>
+                        <option value="3">★★★☆☆ - Regular</option>
+                        <option value="2">★★☆☆☆ - Ruim</option>
+                        <option value="1">★☆☆☆☆ - Péssimo</option>
+                        </select>
+                    </div>
+
+                    <div class="formulario">
+                        <!-- 2. Avaliação do local -->
+                        <label for="avaliacao-local">2. Avaliação do local de camping:</label>
+                        <textarea id="avaliacao-local" name="avaliacao-local" rows="3" placeholder="Conte como foi a estrutura, segurança e ambiente..." required></textarea>
+                        <button type="submit">Enviar Avaliação</button>
+                    </div>
+
+                        <div class="formulario">
+                            <!-- 3. Denúncia de má conduta -->
+                            <label for="denuncia">3. Houve má conduta de visitantes? (Descreva):</label>
+                            <textarea id="denuncia" name="denuncia" rows="2" placeholder="Relate casos de vandalismo, barulho excessivo, lixo, etc. (opcional)"></textarea>
+                            <button type="submit">Enviar Avaliação</button>
+                        </div>
+
+                        <div class="formulario">
+                            <!-- 4. Hospedagem, guia e experiência -->
+                            <label for="experiencia">4. Hospedagem, guia e experiência:</label>
+                            <textarea id="experiencia" name="experiencia" rows="3" placeholder="Descreva como foi a recepção, atendimento e os passeios..." required></textarea>
+                            <button type="submit">Enviar Avaliação</button>
+                        </div>
+
+                        <div class="formulario">
+                            <!-- 5. Recomendaria a experiência? -->
+                            <label for="recomendacao">5. Você recomendaria essa experiência a terceiros?</label>
+                            <textarea id="recomendacao" name="recomendacao" rows="2" placeholder="Sim ou não? Justifique sua resposta." required></textarea>
+                            <button type="submit">Enviar Avaliação</button>
+                        </div>
+
+                    </div>
+
+                </form>
 
             </main>
 
@@ -50,38 +98,7 @@
     -->
 
     <section class="verificacao-satisfacao">
-        <h2>Verificação de Satisfação do Cliente</h2>
-        <form action="#" method="post">
-
-            <!-- 1. Avaliação do produto -->
-            <label for="avaliacao-produto">1. Avaliação geral do(s) produto(s) ou serviço(s)adquirido/prestado(s):</label>
-            <select id="avaliacao-produto" name="avaliacao-produto" required>
-            <option value="">Escolha</option>
-            <option value="5">★★★★★ - Excelente</option>
-            <option value="4">★★★★☆ - Muito bom</option>
-            <option value="3">★★★☆☆ - Regular</option>
-            <option value="2">★★☆☆☆ - Ruim</option>
-            <option value="1">★☆☆☆☆ - Péssimo</option>
-            </select>
-
-            <!-- 2. Avaliação do local -->
-            <label for="avaliacao-local">2. Avaliação do local de camping:</label>
-            <textarea id="avaliacao-local" name="avaliacao-local" rows="3" placeholder="Conte como foi a estrutura, segurança e ambiente..." required></textarea>
-
-            <!-- 3. Denúncia de má conduta -->
-            <label for="denuncia">3. Houve má conduta de visitantes? (Descreva):</label>
-            <textarea id="denuncia" name="denuncia" rows="2" placeholder="Relate casos de vandalismo, barulho excessivo, lixo, etc. (opcional)"></textarea>
-
-            <!-- 4. Hospedagem, guia e experiência -->
-            <label for="experiencia">4. Hospedagem, guia e experiência:</label>
-            <textarea id="experiencia" name="experiencia" rows="3" placeholder="Descreva como foi a recepção, atendimento e os passeios..." required></textarea>
-
-            <!-- 5. Recomendaria a experiência? -->
-            <label for="recomendacao">5. Você recomendaria essa experiência a terceiros?</label>
-            <textarea id="recomendacao" name="recomendacao" rows="2" placeholder="Sim ou não? Justifique sua resposta." required></textarea>
-
-            <button type="submit">Enviar Avaliação</button>
-        </form>
+        
     </section>
 
 

@@ -238,3 +238,100 @@ do "Unidade-preservacao.html". */
     width: 15%;
     border-color:aqua;
 }
+
+/* Deste ponto para baixo as configurações seguintes a este comentário pertence a: "Camping.html" */
+
+.layout-Camping{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+
+.cabecalho header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0.5% 40px; 
+    background-color: transparent;
+    border-radius: 100px;
+}
+
+.cabecalho header h1{
+    margin: 0;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+    font-size: 2rem;
+}
+
+.cabecalho header ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho header ul a{
+    text-decoration: none;
+    color: black;
+    white-space: nowrap;
+    padding: 8px 16px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    background-color: white;
+}
+
+.cabecalho header ul a:hover{
+    background-color: rgba(243, 0, 0, 0.664); 
+}
+
+.cabecalho header figure{
+    margin: 0;
+}
+
+.cabecalho header figure img{
+    max-height: 70px; 
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+}
+
+.produtos{
+    background-color: white;
+    width: auto;
+    height: auto;
+    min-width: 80%;
+    min-height: 68vh;
+    align-self: center;
+    border-radius: 10px;
+    margin-top: -7%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.produtos h1{
+    padding: 0.5% 3%;
+}
+
+.produtos .formulario {
+    padding: 0px 50px;
+    margin: 20px auto;
+}
+
+#avaliacao-produto{
+    margin: 10px;
+}
+
+#avaliacao-local, #denuncia, #experiencia, #recomendacao{
+    margin: -5px 0px;
+    background-color: white;
+}
+
+.produtos .formulario button{
+    position: relative;
+    top: -1px;
+    color: blue;
+}
+
