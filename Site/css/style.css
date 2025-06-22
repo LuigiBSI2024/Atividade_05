@@ -161,6 +161,26 @@ alterações afetem todos os arquivos, tente criar outras div ou usar outros mei
     padding-left: 40px;
 }
 
+.rodape-Natu{
+    display: flex;
+    flex-wrap: nowrap;
+    border-radius: 100px;
+    text-align: center;
+    width: 140vh;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid white;
+}
+
+.rodape-Natu p{
+    margin-left: 3%;
+    color: white;
+}
+
+.rodape-Natu a img{
+    margin-left: 20px;
+    align-self: center;
+}
 /*Aviso acima deste comentário está as configurações para "Natureza.html", e, abaixo dele começa as configurações
 do "Unidade-preservacao.html". */
 
@@ -179,6 +199,7 @@ do "Unidade-preservacao.html". */
 
 .unidade-preservacao h1{
     padding: 0.1% 4%;
+    width: 93vh;
 }
 
 .unidade-preservacao h2{
@@ -299,24 +320,29 @@ do "Unidade-preservacao.html". */
 }
 
 .produtos{
-    background-color: white;
-    width: auto;
+    background-color: transparent;
+    width: 220vh;
     height: auto;
     min-width: 80%;
     min-height: 68vh;
-    align-self: center;
-    border-radius: 10px;
-    margin-top: -7%;
     flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .produtos h1{
     padding: 0.5% 3%;
 }
 
+.formulario{
+    width: 90%;
+}
+
 .produtos .formulario {
-    padding: 0px 50px;
-    margin: 20px auto;
+    padding: 1px 50px;
+    margin: 20px 2px;
 }
 
 #avaliacao-produto{
@@ -327,20 +353,76 @@ do "Unidade-preservacao.html". */
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    padding: 25px 10px;
+    height: auto;
+    width: auto;
+    border: 3px solid black;
+    border-radius: 6px;
+    margin-right: 20px;
 }
 
 .imagens-decorativas > #avaliacao-local, #denuncia, #experiencia, #recomendacao{
-    margin: -5px 0px;
-    background-color: green;
+    margin: -5px 10px 0px 40px;
 }
 
-.produtos .formulario button{
+.produtos .formulario select{
     position: relative;
     top: -1px;
     color: blue;
+    height: 20px;
+    left: -20px;
 }
 
 .produtos .formulario .imagens-decorativas img{
     width: auto;
-    height: 120px;
+    height: 40vh;
+    padding: 0px 10px;
+}
+
+.imagens-decorativas label{
+    padding: 10px 1px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    height: 20px;
+    width: 370px;
+    margin-left: 30px;
+}
+
+.produtos .formulario button{
+    position: relative;
+    top: 25px;
+    color: blue;
+    height: 20px;
+    left: 20px;
+    width: 130px;
+}
+
+.centralizar-produtos{
+    margin: -120px 800px 0px 12%;
+}
+
+.centralizar-produtos{ 
+    border-radius: 6px;
+    width: 220vh;
+}
+
+.centralizar-produtos main{
+    margin-left: 60px;
+}
+
+main h1{
+    border: 2px solid black;
+    width: 49%;
+    border-radius: 40px;
+    margin-left: 3.5%;
+}
+
+.produtos .formulario textarea{
+    border: 5px solid black;
+    padding: 30px 20px;
+}
+
+.centralizar-produtos main p{
+    margin-left: 60px;
 }

@@ -35,75 +35,105 @@
 
         </header>
 
-        <div class="produtos">
-            <main>
+        <div class="centralizar-produtos">
+            <div class="produtos">
+                <main>
 
-                <h1>Verificação de Satisfação do Cliente</h1>
+                    <h1>Verificação de Satisfação do Cliente</h1>
+                    <p>Ao responder, considere os locais visitados e se teve ou não a experiência. Por favor, também informe o local ou região.</p>
 
-                <form action="#" method="post">
+                    <form action="#" method="post">
 
-                    <div class="formulario">
-                        <!-- 1. Avaliação do produto -->
-                        <div class="imagens-decorativas">
-                            <label for="avaliacao-produto">1. Avaliação geral do(s) produto(s) ou serviço(s)adquirido/prestado(s):</label>
-                            <select id="avaliacao-produto" name="avaliacao-produto" required>
-                            <option value="">Escolha</option>
-                            <option value="5">★★★★★ - Excelente</option>
-                            <option value="4">★★★★☆ - Muito bom</option>
-                            <option value="3">★★★☆☆ - Regular</option>
-                            <option value="2">★★☆☆☆ - Ruim</option>
-                            <option value="1">★☆☆☆☆ - Péssimo</option>
-                            </select>
+                        <div class="formulario">
+                            <!-- 1. Avaliação do produto -->
+                            <div class="imagens-decorativas">
+                                <label for="avaliacao-produto" style="height: 37px; margin-right: 3%;" >1. Avaliação geral do(s) produto(s) ou serviço(s), nos locais visitados:</label>
+                                <select id="avaliacao-produto" name="avaliacao-produto" required>
+                                <option value="">Escolha</option>
+                                <option value="5">★★★★★ - Excelente</option>
+                                <option value="4">★★★★☆ - Muito bom</option>
+                                <option value="3">★★★☆☆ - Regular</option>
+                                <option value="2">★★☆☆☆ - Ruim</option>
+                                <option value="1">★☆☆☆☆ - Péssimo</option>
+                                </select>
 
-                            <figure>
-                                <img src="../images/logo-Paisagem.png" alt="Logo do site." />
-                            </figure>
+                                <button type="submit" style=" margin-left: -15px;">Enviar Avaliação</button>
 
-                            <figure>
-                                <img src="../images/logo-Paisagem.png" alt="Logo do site." />
-                            </figure>
+                                <figure>
+                                    <img src="../images/pexels-capturedbyaugustine-19533265.jpg" alt="Logo do site." style=" width: 70vh;"/>
+                                </figure>
+                              
+                            </div>
 
                         </div>
 
-                    </div>
+                        <div class="formulario">
+                            <div class="imagens-decorativas"
+                                <!-- 2. Avaliação do local -->
+                                <label for="avaliacao-local">2. Avaliação do local de camping:</label>
+                                <textarea id="avaliacao-local" name="avaliacao-local" rows="3" placeholder="Conte como foi a estrutura, segurança e ambiente..." required></textarea>
+                                <button type="submit">Enviar Avaliação</button>
 
-                    <div class="formulario">
-                        <!-- 2. Avaliação do local -->
-                        <label for="avaliacao-local">2. Avaliação do local de camping:</label>
-                        <textarea id="avaliacao-local" name="avaliacao-local" rows="3" placeholder="Conte como foi a estrutura, segurança e ambiente..." required></textarea>
-                        <button type="submit">Enviar Avaliação</button>
-                    </div>
+                                <figure>
+                                    <img src="../images/pexels-snapwire-699558.jpg" alt="Logo do site." />
+                                </figure>
 
-                    <div class="formulario">
-                        <!-- 3. Denúncia de má conduta -->
-                        <label for="denuncia">3. Houve má conduta de visitantes? (Descreva):</label>
-                        <textarea id="denuncia" name="denuncia" rows="2" placeholder="Relate casos de vandalismo, barulho excessivo, lixo, etc. (opcional)"></textarea>
-                        <button type="submit">Enviar Avaliação</button>
-                    </div>
+                            </div>
 
-                    <div class="formulario">
-                        <!-- 4. Hospedagem, guia e experiência -->
-                        <label for="experiencia">4. Hospedagem, guia e experiência:</label>
-                        <textarea id="experiencia" name="experiencia" rows="3" placeholder="Descreva como foi a recepção, atendimento e os passeios..." required></textarea>
-                        <button type="submit">Enviar Avaliação</button>
-                    </div>
+                        </div>
 
-                    <div class="formulario">
-                        <!-- 5. Recomendaria a experiência? -->
-                        <label for="recomendacao">5. Você recomendaria essa experiência a terceiros?</label>
-                        <textarea id="recomendacao" name="recomendacao" rows="2" placeholder="Sim ou não? Justifique sua resposta." required></textarea>
-                        <button type="submit">Enviar Avaliação</button>
-                    </div>
+                        <div class="formulario">
+                            <div class="imagens-decorativas">
+                                <!-- 3. Denúncia de má conduta -->
+                                <label for="denuncia">3. Houve má conduta de visitantes? (Descreva):</label>
+                                <textarea id="denuncia" name="denuncia" rows="2" placeholder="Relate casos de vandalismo, barulho excessivo, lixo, etc. (opcional)"></textarea>
+                                <button type="submit">Enviar Avaliação</button>
 
-                    <p>Abacaxi</p>
+                                <figure>
+                                    <img src="../images/pexels-khairul-azizi-249157213-12507060.jpg" alt="Logo do site." />
+                                </figure>
 
+                            </div>
 
-                </form>
+                        </div>
 
-            </main>
+                        <div class="formulario">
+                            <div class="imagens-decorativas">
+                                <!-- 4. Hospedagem, guia e experiência -->
+                                <label for="experiencia">4. Hospedagem, guia e experiência:</label>
+                                <textarea id="experiencia" name="experiencia" rows="3" placeholder="Descreva como foi a recepção, atendimento e os passeios..." required></textarea>
+                                <button type="submit">Enviar Avaliação</button>
 
+                                <figure>
+                                    <img src="../images/pexels-pixabay-262048.jpg" alt="Logo do site." />
+                                </figure>
+
+                            </div>
+
+                        </div>
+
+                        <div class="formulario">
+                            <div class="imagens-decorativas">
+                                <!-- 5. Recomendaria a experiência? -->
+                                <label for="recomendacao">5. Você recomendaria essa experiência a terceiros?</label>
+                                <textarea id="recomendacao" name="recomendacao" rows="2" placeholder="Sim ou não? Justifique sua resposta." required></textarea>
+                                <button type="submit">Enviar Avaliação</button>
+
+                                <figure>
+                                    <img src="../images/pexels-nappy-936095.jpg" alt="Logo do site." />
+                                </figure>
+
+                            </div>
+
+                        </div>
+
+                    </form>
+
+                </main>
+
+            </div>
+            
         </div>
-
     <!--Luigi Aranha, coloque aqui nesta página vídeos relacionados a camping e um formulário que tentará assumir a forma
     de verificador de satisfação do cliente, com artigos de acampamentos. Os 5 itens a serem inseridos no formulário: 1. Avali
     ação no formato de 5 estrelas sobre o produto comprado; 2. Avaliação do local; 3. Denúncia de má conduta dos 
