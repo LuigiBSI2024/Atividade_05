@@ -86,6 +86,33 @@ footer{
     color: black;
 }
 
+.rodape-index{
+    display: flex;
+    flex-wrap: nowrap;
+    border-radius: 100px;
+    text-align: center;
+    width: 1000px;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid white;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.rodape-index p{
+    margin-left: 3%;
+    color: black; 
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 40px;
+}
+
+.rodape-index a img{
+    margin-left: 20px;
+    align-self: center;
+}
+
 footer a img{
     padding: 0px 10px 0px 1px;
     align-self: center;
@@ -170,6 +197,8 @@ alterações afetem todos os arquivos, tente criar outras div ou usar outros mei
     align-items: center;
     justify-content: center;
     border: 3px solid white;
+    margin-bottom: 20px;
+    margin-right: 20px;
 }
 
 .rodape-Natu p{
@@ -181,6 +210,7 @@ alterações afetem todos os arquivos, tente criar outras div ou usar outros mei
     margin-left: 20px;
     align-self: center;
 }
+
 /*Aviso acima deste comentário está as configurações para "Natureza.html", e, abaixo dele começa as configurações
 do "Unidade-preservacao.html". */
 
@@ -222,7 +252,7 @@ do "Unidade-preservacao.html". */
 .Noticias{
     background-color: white;
     border-radius: 10px;
-    border: 2px solid black;
+    border: 5px solid black;
     width: 50%;
     align-self: flex-end;
     height: 24vh;
@@ -260,7 +290,31 @@ do "Unidade-preservacao.html". */
     border-color:aqua;
 }
 
-/* Deste ponto para baixo as configurações seguintes a este comentário pertence a: "Camping.html" */
+.rodape-UPs{
+    display: flex;
+    flex-wrap: nowrap;
+    border-radius: 100px;
+    text-align: center;
+    width: 140vh;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid white;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.rodape-UPs p{
+    margin-left: 3%;
+    color: white;
+}
+
+.rodape-UPs a img{
+    margin-left: 20px;
+    align-self: center;
+}
+
+/* Deste ponto para baixo as configurações seguintes a este comentário pertence a: "Camping.html" e 
+acima de Unidade-preservacao.html. */
 
 .layout-Camping{
     display: flex;
@@ -404,7 +458,7 @@ do "Unidade-preservacao.html". */
 
 .centralizar-produtos{ 
     border-radius: 6px;
-    width: 220vh;
+    width: auto;
 }
 
 .centralizar-produtos main{
@@ -416,6 +470,15 @@ main h1{
     width: 49%;
     border-radius: 40px;
     margin-left: 3.5%;
+}
+
+.fundo-h1{
+    width: 68%;
+}
+
+.fundo-h1 h1{
+    color: black;
+    background-color: white;
 }
 
 .produtos .formulario textarea{
