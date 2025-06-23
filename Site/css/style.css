@@ -5,10 +5,18 @@ body{
   background-position: center center; /* centraliza a imagem */
 }
 
-.layout{
+.layout{ /*Layout base para todos, cuidado ao modificar*/
     display: flex;
     flex-direction: column;
     gap: 200px;
+}
+
+.layout-index{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    height: auto;
+    width: auto
 }
 
 header {
@@ -71,9 +79,10 @@ header figure img{
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    width: 100vh;
+    width: auto;
     margin: 0 auto;
     border: 1px solid black;
+    padding: 0px 30px;
 }
 
 footer{
@@ -91,7 +100,7 @@ footer{
     flex-wrap: nowrap;
     border-radius: 100px;
     text-align: center;
-    width: 1000px;
+    width: auto;
     align-items: center;
     justify-content: center;
     border: 3px solid white;
@@ -106,6 +115,7 @@ footer{
     background-color: white;
     padding: 10px 20px;
     border-radius: 40px;
+    width: 140vh;
 }
 
 .rodape-index a img{
@@ -116,17 +126,22 @@ footer{
 footer a img{
     padding: 0px 10px 0px 1px;
     align-self: center;
-    margin-left: 1140%;
-    
 }
 
 footer p{
     margin-left: -80%;
 }
 
+.fonte-principal-index{
+    font-family: 'Georgia', serif;
+}
+
 /*Aviso: a partir desta linha acima, o arquivo .css pertence ao index.html, como todas as páginas seguintes são sobreescritas
 a partir dele é recomendado atribuir uma nova classe à tag ou evitar modificações nas linhas acima dos comentários para evitar que as
-alterações afetem todos os arquivos, tente criar outras div ou usar outros meios de atribuição.*/
+alterações afetem todos os arquivos, tente criar outras div ou usar outros meios de atribuição.
+
+Natureza.html começa abaixo desse comentário.
+*/
 
 .Turismo{
     background-color: white;
@@ -258,6 +273,7 @@ do "Unidade-preservacao.html". */
     height: 24vh;
     margin-right: 3%;
     margin-top: -10%;
+    padding-bottom: 20px;
 }
 
 .Noticias p{
@@ -295,7 +311,8 @@ do "Unidade-preservacao.html". */
     flex-wrap: nowrap;
     border-radius: 100px;
     text-align: center;
-    width: 140vh;
+    width: 90%;
+    height: auto;
     align-items: center;
     justify-content: center;
     border: 3px solid white;
@@ -304,13 +321,18 @@ do "Unidade-preservacao.html". */
 }
 
 .rodape-UPs p{
-    margin-left: 3%;
+    margin-left: 15px;
     color: white;
 }
 
 .rodape-UPs a img{
     margin-left: 20px;
     align-self: center;
+    padding-left: 10px;
+}
+
+.fonte-principal-Natu{
+    font-family: 'Verdana', sans-serif;
 }
 
 /* Deste ponto para baixo as configurações seguintes a este comentário pertence a: "Camping.html" e 
@@ -320,6 +342,11 @@ acima de Unidade-preservacao.html. */
     display: flex;
     flex-direction: column;
     gap: 200px;
+}
+
+.cabecalho{
+    height: auto;
+    width: auto;
 }
 
 .cabecalho header {
@@ -344,33 +371,36 @@ acima de Unidade-preservacao.html. */
     display: flex;
     gap: 20px;
     list-style: none;
-    margin: 0;
+    margin: 0px;
     padding: 0;
+}
+
+.listagem-ul li{
+    margin: -100px 0px 0px 0px;
+    padding: 7.75% 100px 1% 90px;
 }
 
 .cabecalho header ul a{
     text-decoration: none;
     color: black;
     white-space: nowrap;
-    padding: 8px 16px;
     border-radius: 10px;
     transition: background-color 0.3s;
     background-color: white;
+    text-align: center;
+    padding: 10px 100px 10px 100px;
+    margin-bottom: 1000px;
 }
 
 .cabecalho header ul a:hover{
     background-color: rgba(243, 0, 0, 0.664); 
 }
 
-.cabecalho header figure{
-    margin: 0;
-}
-
-.cabecalho header figure img{
-    max-height: 70px; 
-    height: auto;
+.cabecalho .logo{
     width: auto;
-    border-radius: 10px;
+    margin-top: -25%;
+    margin-right: 0px;
+    margin-left: 50%;
 }
 
 .produtos{
@@ -422,7 +452,6 @@ acima de Unidade-preservacao.html. */
 .produtos .formulario select{
     position: relative;
     top: -1px;
-    color: blue;
     height: 20px;
     left: -20px;
 }
@@ -441,6 +470,8 @@ acima de Unidade-preservacao.html. */
     height: 20px;
     width: 370px;
     margin-left: 30px;
+    color: black;
+    background-color: white;
 }
 
 .produtos .formulario button{
@@ -488,4 +519,32 @@ main h1{
 
 .centralizar-produtos main p{
     margin-left: 60px;
+}
+
+.rodape-Camping{
+    display: flex;
+    flex-wrap: nowrap;
+    border-radius: 100px;
+    text-align: center;
+    width: 140vh;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid white;
+    margin-bottom: 20px;
+    margin-right: -220px;
+    margin-top: -390px;
+}
+
+.rodape-Camping p{
+    margin-left: 3%;
+    color: white;
+}
+
+.rodape-Camping a img{
+    margin-left: 20px;
+    align-self: center;
+}
+
+.fonte-principal-UPs{
+    font-family: 'Courier New', monospace;
 }
